@@ -1,0 +1,27 @@
+git使用：
+1.在github上create repository；
+（其他操作都在git里）：
+2.cd到folder下；
+3.git init
+  touch README   //touch创建
+  git add README
+  git commit -m '1commint'
+  git remote add origin git@github.com:chw120/repositoryname.git
+  git push -u origin master
+4.git add .      //.是add所有的files
+  git commit -m '2commit'
+  git push -u origin master
+
+5.git rm repooo.txt
+  git commit -m '3commit'
+  //commit后撤销
+  git log
+  git reset --hard 214fefdg4545grg111
+  git push -u origin master
+6.git status      //查看状态
+
+
+**
+https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert%E7%9A%84%E9%80%89%E6%8B%A9
+https://ihower.tw/git/basic.html
+
